@@ -1,0 +1,11 @@
+Package: RenewQIF
+Type: Package
+Title: Real-time Regression Analysis of Streaming Clustered Data with Possible Abnormal Data Batches
+Version: 1.0
+Date: 2019-10-03
+Author: Lan Luo
+Maintainer: Lan Luo <luolsph@umich.edu>
+Description: This package updates the regression coefficients and their standard errors in streaming datasets that contain cluster- or longitudinal-correlated observations (note that data batches are independent of each other). Additionally, user can turn on the monitoring procedure to check if there are abnormal data batches.
+License: GPL-2
+Imports: Rcpp (>= 0.12.18), MASS, SimCorMultRes
+LinkingTo: Rcpp, RcppArmadillo
